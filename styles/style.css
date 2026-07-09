@@ -1,0 +1,46 @@
+body{
+    width: 1550px;
+    border: 0;
+    margin: 0px;
+}
+
+/* Common asset and tools */
+.primary-Btn{
+   background-color: #1D4ED8; 
+   color: #FFFFFF;
+   border-radius: 10px;
+   height: 50px;
+   width: 200px;
+   font-weight: bold;
+   border: 0px solid;
+}
+
+/* Logo */
+
+.logo{
+    display: flex;
+}
+nav{
+    margin: 10px 80px;
+}
+
+.navbar-class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16;
+    
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #575757;;
+}
+
