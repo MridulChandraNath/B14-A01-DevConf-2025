@@ -68,3 +68,73 @@ nav{
 .register-button-class{
     margin-top:180px;
 }
+
+
+/* speaker container section started */
+
+
+.speaker-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.speaker-section-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin: 0 auto 50px auto;
+    padding: 0 20px;
+}
+.speaker-section h2 {
+    font-size: 48px;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+.speaker-cart{
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    box-shadow: 10px #575757;
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+}
+
+.speaker-cart img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+
+.speaker-cart h4 {
+    color: #2563eb;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+
+.speaker-cart h3 {
+    color: #111827; 
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+
+.speaker-cart p {
+    color: #6b7280; 
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 24px; 
+}
+
+
+/* speaker container section ended */
