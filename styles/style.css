@@ -1,5 +1,5 @@
 body{
-    width: 1550px;
+
     border: 0;
     margin: 0px;
 }
@@ -21,7 +21,7 @@ body{
     display: flex;
 }
 nav{
-    margin: 10px 80px;
+    margin: 10px 50px;
 }
 
 .navbar-class{
@@ -44,3 +44,27 @@ nav{
     color: #575757;;
 }
 
+/* Banner section */
+.banner-section{
+    height: 700px;
+    background-image: url("../assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-slogan{
+    font-size: 80px;
+}
+
+.register-button-class{
+    margin-top:180px;
+}
