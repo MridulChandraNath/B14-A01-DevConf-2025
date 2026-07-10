@@ -28,7 +28,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 16;
+    font-size: 16px;
     
 }
 
@@ -138,3 +138,138 @@ nav{
 
 
 /* speaker container section ended */
+
+
+
+
+/* Pricing section added */
+
+
+
+.pricing-section{
+    padding:80px 50px;
+    text-align:center;
+    background:#ffffff;
+}
+
+.pricing-section h2{
+    font-size:48px;
+    margin-bottom:10px;
+    color:#111827;
+}
+
+.pricing-subtitle{
+    color:#6b7280;
+    margin-bottom:50px;
+}
+
+.pricing-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.pricing-card{
+    width:320px;
+    background:#ffffff;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    padding:30px;
+    text-align:left;
+    transition:.3s;
+}
+
+
+
+.pricing-card h5{
+    color:#6b7280;
+    margin:0;
+}
+
+.pricing-card h1{
+    font-size:50px;
+    margin:10px 0 5px;
+}
+
+.pricing-card p{
+    color:#6b7280;
+    margin-bottom:20px;
+}
+
+.pricing-card hr{
+    border:none;
+    border-top:1px solid #e5e7eb;
+    margin:20px 0;
+}
+
+.pricing-card ul{
+    padding-left:18px;
+    margin-bottom:30px;
+}
+
+.pricing-card li{
+    margin-bottom:12px;
+    color:#374151;
+}
+
+.outline-btn{
+    width:100%;
+    height:50px;
+    background:#ffffff;
+    color:#1D4ED8;
+    border:1px solid #1D4ED8;
+    border-radius:10px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+/* Featured Card */
+
+.featured{
+    background:#0F172A;
+    color:white;
+  
+}
+
+.featured h5,
+.featured p,
+.featured li{
+    color:#d1d5db;
+}
+
+.featured hr{
+    border-top:1px solid rgba(255,255,255,.15);
+}
+
+.featured .primary-Btn{
+    width:100%;
+}
+
+
+
+/* Conference Schedule */
+.DayScheduleSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.DaySchedule{
+    display: flex;
+}
+
+.DayCart{
+    height: 300px;
+    width: 300px;
+    gap: 30px;
+    margin: 50px;
+    border: 1px #000000 solid;
+    text-align: center;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.DayCart:hover{
+    background-color: #1D4ED8;
+    border-radius: 0px 20px 0px 20px;
+}
