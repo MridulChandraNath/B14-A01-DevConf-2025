@@ -273,3 +273,24 @@ nav{
     background-color: #1D4ED8;
     border-radius: 0px 20px 0px 20px;
 }
+
+
+/* Footer section  */
+
+footer{
+    height: 250px;
+    background-color: #0D1B2A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    padding: 0px 50px;
+}
+
+.rightFooter{
+    display: flex;
+}
+
+.rightFooter p{
+    margin: 30px;
+}
